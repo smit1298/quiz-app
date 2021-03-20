@@ -16,12 +16,6 @@ alert ('access denied')
 })
 
 
-// autoOpenAlink(e) {
-//     e.preventDefault();
-//     let url = this.url;
-//     window.open(url, "iframe testing page");
-// },
-
 
 
 

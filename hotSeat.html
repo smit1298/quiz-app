@@ -5,19 +5,26 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./hotSeat.css">
+    <link rel="stylesheet" href="./bootstrap.min.css">
     <link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
     <title>Hot Seat</title>
 </head>
 
 <body>
-    <div class="timer">
-        <i class="ion-ios-stopwatch-outline"></i>
-    </div>
-    <div id="quizContainer">
-        <h2 id="questionContainer"></h2>
-        <div id="optionContainer"></div>
-        <div id="buttonContainer"></div>
-        <div id="previousContainer"></div>
+    <i id="watch" class="ion-ios-stopwatch-outline"></i>
+    <div id="timer"></div>
+
+    <div id="wholecontainer">
+        <div class="quiz" id="quizContainer">
+            <h2 id="questionContainer"></h2>
+            <div id="optionContainer"></div>
+            <div class="hideBtn" id="buttonContainer"></div>
+            <div class="hideBtn" id="previousContainer"></div> <br>
+            <p id="score" ></p>
+
+        </div>
+            <div  ><button id="lastBtn" class="submits" type="submit">Submit</button></div>
 
     </div>
 
